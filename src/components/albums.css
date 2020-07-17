@@ -1,0 +1,51 @@
+#albumname {
+    font-family: 'Boogaloo', cursive;
+    margin: auto;
+    font-size: 2.5em;
+    padding-top: 1px;
+}
+
+#albumpicture {
+    width: 80%;
+    height: auto;
+    vertical-align: middle;
+    padding-top: 25px;
+}
+
+#albumsquare {
+    margin: auto;
+    height: auto;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #333;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.4),
+    -30px 0px 40px  rgba(0, 0, 0, 0.4);
+}
+
+#description{
+    color: white;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+#albumname h3 {
+    color: white;
+    margin: .4em;
+}
+
+#albumname a {
+    padding: 8px 32px;
+    border: 1px #ccc solid;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    background-color: darkorange;
+}
+
+#description p {
+    font-family: 'Boogaloo', cursive;
+    padding: 4px;
+}

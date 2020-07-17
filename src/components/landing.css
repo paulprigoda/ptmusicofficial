@@ -1,0 +1,84 @@
+#landingsqure {
+    margin: auto;
+    height: auto;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #eee;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.4),
+    -30px 0px 40px  rgba(0, 0, 0, 0.4);
+    font-family: 'Boogaloo', cursive;
+}
+
+#socials {
+    display: flex;
+    height: 20vh;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+#landingtext h1 {
+    font-size: 45px;
+}
+
+#landingtext h2 {
+    color: #888;
+}
+
+#landingimage {
+    background: url(../images/ptofficial.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+#socials i {
+    font-size: 5em;
+    padding: 8px;
+}
+
+#insta i {
+    color: brown;
+}
+
+#youtube i {
+    color: red;
+}
+
+#twitter i {
+    color: lightskyblue;
+}
+
+#face i {
+    color: blue;
+}
+
+@media(min-width: 500px) {
+    #landingsqure {
+        display: flex;
+    }
+
+    #landingtext{
+        height: 20vh;
+    }
+
+    #landingtextsocials{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    #landingimage {
+        height: 100vh;
+        background-position: right;
+    }
+}
